@@ -1,10 +1,8 @@
 # Convolutional Neural Network in C&#x23;
 
-Convolutional neural network trained on the MNIST data set. The structure of the convolution is as follows:
-<code>
-1x28x28 Input -> 8x5x5 Convolution -> 2x2 Max Pooling -> 8x5x5 Convolution -> 2x2 Max Pooling -> 15 Hidden -> 10 Output
-</code>
-In the data folder, there are three weights files of various number of iterations.
+<p>Convolutional neural network trained on the MNIST data set. The structure of the convolution is as follows:</p>
+<p><code>1x28x28 Input -> 8x5x5 Convolution -> 2x2 Max Pooling -> 8x5x5 Convolution -> 2x2 Max Pooling -> 15 Hidden -> 10 Output</code></p>
+<p>In the data folder, there are three weights files of various number of iterations.</p>
 
 # More Details
 
