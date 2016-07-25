@@ -75,7 +75,7 @@ namespace MNIST_CNN {
 
         private void Initialize_Weights_Click (object sender, EventArgs e) {
             double range1 = 1 / Math.Sqrt(CONVOLUTION_SIZE * CONVOLUTION_SIZE);
-            double range2 = 1 / Math.Sqrt(4 * CONVOLUTION_SIZE * CONVOLUTION_SIZE);
+            double range2 = 1 / Math.Sqrt(FEATURE_SIZE * CONVOLUTION_SIZE * CONVOLUTION_SIZE);
             double range3 = 1 / Math.Sqrt(FEATURE_SIZE * POOLED_WIDTH_2 * POOLED_HEIGHT_2);
             double range4 = 1 / Math.Sqrt(HIDDEN_SIZE);
 
